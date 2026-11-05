@@ -1,0 +1,280 @@
+Struktur project yang paling rapi
+ecommerce-business-analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── ecommerce_raw.csv
+│   │
+│   ├── interim/
+│   │   └── ecommerce_cleaning_step.csv
+│   │
+│   └── processed/
+│       └── ecommerce_cleaned.csv
+│
+├── sql/
+│   ├── 01_create_table.sql
+│   ├── 02_data_quality_check.sql
+│   ├── 03_business_analysis.sql
+│   └── 04_kpi_queries.sql
+│
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_customer_segmentation.ipynb
+│   └── 04_business_summary.ipynb
+│
+├── excel/
+│   ├── ecommerce_analysis.xlsx
+│   └── excel_dashboard.xlsx
+│
+├── tableau/
+│   ├── ecommerce_dashboard.twb
+│   └── ecommerce_dashboard.twbx
+│
+├── charts/
+│   ├── revenue_trend.png
+│   ├── category_analysis.png
+│   ├── region_analysis.png
+│   ├── customer_segmentation.png
+│   ├── discount_analysis.png
+│   └── dashboard_preview.png
+│
+├── reports/
+│   ├── insights.md
+│   ├── recommendations.md
+│   └── final_summary.md
+│
+├── docs/
+│   ├── data_dictionary.md
+│   ├── project_scope.md
+│   └── workflow.md
+│
+├── assets/
+│   ├── logo.png
+│   └── cover.png
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
+
+Isi tiap folder itu apa
+1) data/raw/
+Isinya data asli dari Kaggle.
+Jangan disentuh dulu.
+
+Contoh:
+- ecommerce_raw.csv
+Tujuannya:
+- bukti data mentah
+- sumber utama analisis
+- kalau cleaning rusak, masih ada backup
+2) data/interim/
+Isinya data tahap tengah.
+
+Contoh:
+- ecommerce_cleaning_step.csv
+Fungsinya:
+- hasil cleaning sementara
+- cek proses manual
+- kalau mau bandingin sebelum/sesudah cleaning
+3) data/processed/
+Ini hasil akhir setelah semua cleaning.
+
+Contoh:
+- ecommerce_cleaned.csv
+Biasanya isinya:
+- kolom sudah rapi
+- missing value sudah ditangani
+- tipe data sudah benar
+- siap dipakai SQL / Tableau / Excel
+4) sql/
+Ini tempat semua query SQL.
+
+File yang ideal:
+- 01_create_table.sql
+- 02_data_quality_check.sql
+- 03_business_analysis.sql
+- 04_kpi_queries.sql
+Isi query:
+- create table
+- cek null
+- cek duplicate
+- total revenue
+- total order
+- sales by category
+- sales by region
+- monthly trend
+- top product
+- discount impact
+- customer segment analysis
+5) notebooks/
+Ini tempat kerja Python.
+
+File yang ideal:
+- 01_data_cleaning.ipynb
+- 02_eda.ipynb
+- 03_customer_segmentation.ipynb
+- 04_business_summary.ipynb
+Isinya:
+- import library
+- load data
+- cleaning
+- transformasi
+- analisis
+- visualisasi
+- insight
+Kalau mau keliatan profesional, bagi notebook berdasarkan tahap, jangan satu notebook isinya semua kacau.
+6) excel/
+Kalau mau ada Excel dashboard atau analisis pivot.
+
+Contoh file:
+- ecommerce_analysis.xlsx
+- excel_dashboard.xlsx
+Di sini bisa isi:
+- pivot table
+- pivot chart
+- slicer
+- KPI summary
+- quick business report
+Ini bagus buat nunjukkin lu kuat di reporting juga.
+7) tableau/
+Ini buat file Tableau.
+
+Contoh:
+- ecommerce_dashboard.twb
+- ecommerce_dashboard.twbx
+Kalau bisa pakai .twbx supaya data kebawa sekalian.
+8) charts/
+Ini folder visual hasil analisis.
+
+Contoh:
+- revenue_trend.png
+- category_analysis.png
+- region_analysis.png
+- customer_segmentation.png
+- discount_analysis.png
+- dashboard_preview.png
+Folder ini penting buat:
+- README GitHub
+- portfolio website
+- LinkedIn post
+9) reports/
+Ini tempat rangkuman bisnis.
+
+File:
+- insights.md
+- recommendations.md
+- final_summary.md
+Contoh isinya:
+- insight utama
+- rekomendasi bisnis
+- kesimpulan project
+- next action untuk bisnis
+Ini bikin project terasa “business analyst”, bukan cuma technical analyst.
+10) docs/
+Dokumentasi internal project.
+
+File:
+- data_dictionary.md
+- project_scope.md
+- workflow.md
+Contoh isi:
+- arti tiap kolom
+- scope analisis
+- tahapan kerja
+- batasan dataset
+Kalau recruiter lihat ini, project lu keliatan serius.
+11) assets/
+Buat gambar pendukung.
+
+Contoh:
+- logo.png
+- cover.png
+Kalau nanti bikin tampilan README atau website, folder ini berguna.
+Struktur analisis yang cocok untuk project ini
+Kalau mau project final lu kuat, alurnya begini:
+Tahap 1 — Data Collection
+Cari dataset raw besar dari Kaggle.
+
+Target:
+- puluhan ribu rows
+- ada customer, order, category, revenue, region, discount
+Tahap 2 — Data Cleaning
+Di Python:
+- missing value
+- duplicate
+- wrong data type
+- outlier
+- inconsistent category
+- parse tanggal
+- rename kolom
+- feature engineering
+Tahap 3 — SQL Analysis
+Bikin query bisnis:
+- revenue total
+- revenue by month
+- top category
+- top region
+- discount effect
+- customer segment
+- product performance
+Tahap 4 — Excel Analysis
+Pakai untuk:
+- pivot summary
+- quick chart
+- business snapshot
+Tahap 5 — Tableau Dashboard
+Bikin:
+- executive dashboard
+- customer dashboard
+- product dashboard
+- region dashboard
+Tahap 6 — Final Reporting
+Tulis:
+- insight
+- rekomendasi
+- kesimpulan bisnis
+Kalau lu mau tampil profesional di GitHub
+README final nanti cukup bilang project ini punya:
+- raw data
+- cleaning pipeline
+- SQL analysis
+- Python EDA
+- Excel dashboard
+- Tableau dashboard
+- business insights
+- recommendations
+Itu udah kelihatan lengkap banget.
+Struktur repo yang lebih simpel kalau mau lebih realistis
+Kalau gua jujur, buat capstone portfolio lu, versi simpel ini juga udah cukup:
+ecommerce-business-analysis/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── sql/
+├── excel/
+├── tableau/
+├── charts/
+├── reports/
+├── README.md
+├── requirements.txt
+└── LICENSE
+
+Kalau lu mau rapi banget, pakai versi lengkap tadi.
+Kalau mau cepat dan tetap profesional, pakai versi simpel ini.
+Rekomendasi final gua
+Kalau ini project penutup 2026 menuju 2027, gua saranin:
+Nama project:
+E-commerce Business Performance & Customer Segmentation Analysis
+Kenapa cocok:
+- besar
+- kompleks
+- ada cleaning
+- ada SQL
+- ada Python
+- ada Excel
+- ada Tableau
+- ada business insight
+- cocok buat portfolio dan LinkedIn

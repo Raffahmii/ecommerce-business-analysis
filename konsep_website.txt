@@ -1,0 +1,154 @@
+Project ini nanti harus punya:
+- README.md profesional
+- analysis.sql
+- eda.ipynb
+- excel dashboard
+- tableau dashboard
+- dashboard preview
+- business insights
+- recommendations
+
+nah kalau di akhir juga ada itu kan gua punya skill web developer juga ya kan nanti setelah itu selesai gua ingin nanti membuat website nya pakai react dan di ini di vercel bre , nah terus baru mereka bisa lihat preview besar nya baru download folder asli nya dan dashboard nya ... gimana menurut lu ? sekarang buatkan konsep untuk website nya juga sekalian
+
+portfolio website lu → orang lihat preview besar dulu → lihat insight singkat → baru klik ke GitHub / Tableau / download files.
+
+Itu udah kerasa kayak mini case study, bukan sekadar galeri project.
+Konsep website-nya
+1) Halaman utama portfolio
+Isi utamanya:
+- Hero section
+- About singkat
+- Skills
+- Services
+- Qualification
+- Project highlights
+- Contact
+Nah di bagian project, project terakhir ini jadi featured project.
+2) Halaman / section khusus project capstone
+Untuk project terakhir 2027 nanti, bikin layout kayak gini:
+Header
+Judul project:
+E-commerce Business Performance & Customer Segmentation Analysis
+
+Subjudul:
+End-to-end business analysis using SQL, Python, Excel, and Tableau
+Hero preview besar
+Di atas banget kasih:
+- gambar dashboard utama ukuran besar
+- bisa klik buat zoom / lihat fullscreen
+Project summary cards
+Bisa isi 4–6 card:
+- Dataset size
+- Tools used
+- Duration
+- Business goal
+- Main output
+- Status: completed
+Contoh:
+- 50K+ rows
+- SQL • Python • Excel • Tableau
+- Business Performance Analysis
+- Customer Segmentation
+- Dashboard + Insights + Recommendations
+What I analyzed
+Bagian ini isi dengan poin analisis:
+- Revenue trend
+- Category performance
+- Region performance
+- Customer behavior
+- Discount impact
+- Profitability
+- Top products
+- Repeat customers
+Key insights
+Bikin 3–5 insight utama.
+Ini penting banget karena recruiter suka lihat hasil akhirnya, bukan cuma tools.
+Dashboard gallery
+Tampilkan:
+- dashboard overview
+- revenue by category
+- revenue by region
+- customer segmentation
+- discount analysis
+Kalau bisa pakai modal / lightbox biar saat diklik bisa fullscreen.
+Files / resources
+Bagian ini cocok buat tombol:
+- View GitHub Repository
+- Open Tableau Dashboard
+- Download Project ZIP
+- Download SQL
+- Download Excel File
+- Download Python Notebook
+- Read README
+Kalau nanti lu mau pengunjung bisa ambil file asli, ini tempatnya.
+Recommendations
+Isi 3–5 rekomendasi bisnis.
+Misalnya:
+- optimize discount strategy
+- improve high-value category stock
+- focus marketing on strongest region
+- strengthen repeat customer retention
+3) Struktur website yang paling cocok
+Menurut gua ada 2 opsi:
+Opsi A — Portfolio + Detail Project Page
+Cocok kalau lu mau tampil clean.
+
+Halaman:
+- Home
+- About
+- Skills
+- Projects
+- Contact
+- Project Detail Page
+Project detail page itu khusus untuk Amazon Sales / capstone final.
+Opsi B — One-page portfolio + modal project
+Kalau mau simpel:
+- Home
+- Projects section
+- Klik project → kebuka modal besar atau drawer
+- Ada preview, summary, links, download
+Ini lebih cepat dibikin dan cocok buat Vercel.
+Konsep UI yang gua saranin
+Tema visual
+Karena project lu data analyst, pakai style:
+- putih bersih
+- orange / amber sebagai accent
+- abu muda untuk border
+- rounded card
+- shadow halus
+- font modern
+Biar nyambung sama dashboard Amazon lu yang dominan orange.
+Layout project card
+Di card project tampilkan:
+- thumbnail dashboard
+- title
+- tools
+- short description
+- button: View Project
+Begitu diklik, kebuka halaman detail dengan:
+- preview besar
+- info project
+- file download
+- link Github/Tableau
+Yang paling penting
+Kalau lu bikin website ini, lu sebenarnya lagi bikin lapisan presentasi terakhir dari semua kerja keras lu.
+
+Urutannya jadi keren banget:
+1. Data mentah
+2. SQL analysis
+3. Python EDA
+4. Excel dashboard
+5. Tableau dashboard
+6. README profesional
+7. GitHub repository
+8. Portfolio website React + Vercel
+Itu udah kelihatan real workflow seorang analyst + developer.
+Menurut gua konsep terbaiknya
+Untuk project final 2027, website lu harus punya:
+- Homepage portfolio
+- Project detail page khusus capstone
+- Preview dashboard besar
+- Insight dan rekomendasi
+- Tombol download folder / file
+- Link GitHub + Tableau
+- CTA jelas: View / Download / Explore
